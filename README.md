@@ -1,5 +1,7 @@
 ## Hi there👋 
 ### It's a Kre4 space, do whatever you want
+<img align="middle" width="500" alt="🦑" src="https://github.com/Kre4/Kre4/blob/main/github-languages.svg">    
+<img align="middle" width="500" alt="🦑" src="https://github.com/Kre4/Kre4/blob/main/github-contributions.svg">  
 
 <!--
 **Kre4/Kre4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
