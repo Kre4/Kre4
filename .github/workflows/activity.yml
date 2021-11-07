@@ -31,6 +31,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           repositories_forks: yes
+          plugin_languages_ignored: CMake, makefile, C
           
           
       - name: 📅 Isocalendar plugin (full year)
