@@ -1,5 +1,5 @@
 # Hi there👋 
-## It's a Kre4 space, do whatever you want!
+## It's a Kre4 space, do whatever you want :raccoon:
 *switch to [RU version](https://github.com/Kre4/Kre4/blob/main/READMERU.md)*
 
 ## 📊Statistics📊
