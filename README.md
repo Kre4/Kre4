@@ -1,8 +1,6 @@
 # Hi there👋 
 ## It's a Kre4 space, do whatever you want :raccoon:
 *switch to [RU version](https://github.com/Kre4/Kre4/blob/main/READMERU.md)*
-## My CV 
-### [Check this link!](https://github.com/Kre4/Kre4/blob/main/MyCV.pdf)
 ## 📊Statistics📊
 <img align="middle" width="500" alt="🦑" src="https://github.com/Kre4/Kre4/blob/main/github-languages.svg">    
 <img align="middle" width="500" alt="🦑" src="https://github.com/Kre4/Kre4/blob/main/github-contributions.svg">  
