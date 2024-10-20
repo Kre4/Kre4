@@ -10,7 +10,3 @@
 * [Calculator](https://github.com/Kre4/Calculator). Nothing special to add. Just calculator.
 * [Developers Life](https://github.com/Kre4/DevelopersLifeApp), just show you random funny pictures and gifs based on developers theme.
 * [SuperSimplePhotoEditor](https://github.com/Kre4/SuperSimplePhotoEditor) - app that I made for fun. Allow you to draw on selected photo.
-## ℹ️Little information about meℹ️
-* Android fan, hope I'll become super android developer
-* Kotlin enjoyer, I like this language:point_right::point_left:
-* ITMO IS 2nd course student
