@@ -1,0 +1,273 @@
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\usepackage{multicol}
+\setlength{\columnsep}{0mm}
+%----------------------------------------------------------------------------------------
+\usepackage{lipsum}  
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} 
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	{ \fontsize{16}{20} \textcolor{black}{\textbf{\MakeUppercase{{Холопов Денис}}}}} % First name
+	
+	\vspace{6pt}
+	
+	{23 года} % Career or current job title
+        {\hfill}\icon{MapMarker}{11}{Санкт-Петербург, Россия}\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.25\textwidth} % 20% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	\icon{PaperPlane}{11}{\href{https://t.me/NiceScreen_NiceCode}{@NiceScreen\_NiceCode}}\\ 
+    \icon{Phone}{11}{+7 988 532 10 80}\\
+    
+	
+\end{minipage}
+\begin{minipage}[t]{0.22\textwidth} % 27% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\icon{Envelope}{11}{\href{mailto:denhol2002@mail.ru}{denhol2002@mail.ru}}\\	
+    \icon{Github}{11}{\href{https://github.com/Kre4}{github.com/Kre4}}\\    
+    
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.46\textwidth}
+    \cvsect{Мотивация}
+	\vspace{-6pt}
+    \begin{minipage}[t]{1\textwidth}
+     Хочу развиваться в разработке микросервисов, изучать новые фреймворки, технологии и языки. Улучшить свои навыки в разработке высоконагруженных систем.
+     \end{minipage}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.465\textwidth}
+    \cvsect{Языки}
+    \vspace{-6pt}
+    
+    % \hspace{26mm} 
+    \textbf{Английский} - B2 + чтение документации, 
+    
+    \textbf{Русский} - родной
+    
+\end{minipage}
+
+
+\cvsect{Навыки}
+    \vspace{-6pt}
+
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Языки:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Java 8/11/17/21, Kotlin, SQL, Python, TypeScript
+    \end{minipage}
+    \vspace{2mm}
+
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Фреймворки:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Spring Boot, Spring Cloud Gateway, Spring AMQP, Spring Data JPA, Spring Data JDBC, Spring Boot Actuator, Amazon S3 SDK, Flyway, Liquibase, ModelMapper, Apache POI, MapStruct, Junit5, Testcontainers, Angular
+    \end{minipage}
+    \vspace{2mm}
+
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Безопасность:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      Spring Security, Spring Authorization Server, Keycloak, OAuth2/OIDC
+    \end{minipage}
+    \vspace{2mm}
+
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Хранилища:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.73\textwidth}
+      PostgreSQL, MySQL, SQLite, MinIO
+    \end{minipage}
+    \vspace{2mm}
+    
+    \begin{minipage}[t]{0.2\textwidth}
+        \textbf{Другое:}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.735\textwidth}
+    Git, OpenAPI, Docker, Apache Kafka, RabbitMQ, S3, Maven, Gradle, Spotless, SpotBugs, SonarCube, Jacoco Report.
+    \end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\vspace{-0 pt}
+\cvsect{Опыт работы}
+\begin{entrylist}
+    \entry
+		{11/2024 - сейчас}
+        {Middle Backend Developer}
+        {КРИТ}
+      {\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item {Разработка и поддержка B2B приложения для технического обслуживания и ремонта оборудования, работающего на микросервисной архитектуре.}
+            \item {Проектирование и полная разработка 4 микросервисов с нуля (Java/Kotlin, Spring Boot), каждый с покрытием тестами от 70\%, полной документацией OpenAPI и настройками code quality (Spotless, SpotBugs).}
+            \item {Разработал микросервис управления файлами на базе S3-совместимого хранилища, который стал переиспользуемым компонентом и интегрирован в 3+ существующих продукта компании.}
+            \item {Автоматизировал критичные бизнес-процессы:}
+                \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=3pt]
+                    \item Заменил ручную синхронизацию между тремя системами на асинхронную интеграцию через message broker (RabbitMQ), сократив время синхронизации и ошибки. 
+                    \item Реализовал автоматическое извлечение API endpoints из OpenAPI спецификаций для динамического управления ролевой моделью доступа.
+                \end{itemize}
+            \item {Разработка и настройка API Gateway сервисов на Spring Cloud Gateway для нескольких команд. Функционал по маршрутизации, аутентификации и rate limiting.}
+            \item {Активное участие в архитектурных обсуждениях и принятии технических решений, code review в команде.}
+        \end{itemize} 
+        % \texttt{} \slashsep \texttt{} \slashsep \texttt{} TODO ключевые слова?
+        }
+    \entry
+		{12/2021 - 11/2024}
+        {Junior Fullstack Developer}
+        {ВНИИГ им. Б.Е. Веденеева}
+      {\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item {Разработка группы проектов для мониторинга состояния гидроэлектростанций в реальном времени}
+            \item {Backend: Java 8/11, Spring Framework (Boot, MVC, Data JPA), PostgreSQL, Apache Kafka. Frontend: TypeScript, Angular}
+            \item {Проектирование и оптимизация архитектуры БД}
+            \item {Проектирование и разработка сервисов для интеграции с измерительной аппаратурой. Решение задач по получению и передаче данных, их обработке}
+            \item {Оптимизация производительности: ускорил старт приложения с 5 до 3 минут путем оптимизации инициализации и lazy loading}
+            \item {Code review и менторство стажеров}
+        \end{itemize} 
+        % \texttt{Spring} \slashsep \texttt{Apache Kafka} \slashsep \texttt{PostgreSQL} TODO ключевые слова?
+        }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+\cvsect{Образование}
+\begin{entrylist}
+    \entry
+		{2025 - 2027гг.}
+		{НИУ ИТМО, магистратура}
+		{}
+		{ФИТиП, Программирование и интернет-технологии}
+    \entry
+		{2020 - 2024гг.}
+		{НИУ ИТМО, бакалавриат}
+        {}
+		{ФИТиП, Информационные системы и технологии}
+    
+
+    
+\end{entrylist}
+
+\vspace{-20 pt}
+\cvsect{\textbf{Олимпиады}}
+\begin{entrylist}
+    \entry
+        {2023/24г.}
+        {Промышленный бэкенд, студенческая олимпиада}
+        {призёр}
+        {\href{https://drive.google.com/file/d/1YQdVSubT0tgrUXBRzmaYQZjn4SfmLXu-/view}{Мегаолимпиада ИТМО}}
+    \entry
+        {2023/24г.}
+        {Мобильная разработка, студенческая олимпиада}
+        {призёр}
+        {\href{https://drive.google.com/file/d/1yrZl55YZbbO_mYd815QeP8cv3__eWc_P/view}{Мегаолимпиада ИТМО}}
+    \entry
+		{2019/20г.}
+        {Информатика, 11 класс.}
+        {победитель}
+        {\href{https://diploma.rsr-olymp.ru/files/rsosh-diplomas-static/compiled-storage-2020/by-code/184635984832/color.pdf}{Открытая олимпиада школьников}}
+    \entry
+		{2019/20г.}
+        {Математика, 11 класс.}
+        {призёр III степени}
+		{\href{https://diploma.rsr-olymp.ru/files/rsosh-diplomas-static/compiled-storage-2020/by-code/186308281722/color.pdf}{Отраслевая физико-математическая олимпиада школьников «Росатом»}}
+\end{entrylist}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+\vspace{-10 pt}
+
+\cvsect{Проекты}
+\begin{entrylist}
+     \entry
+		{Jpa/PostgreSQL}
+		{BatchInsert - Анализ производительности batch-операций}
+		{\href{https://github.com/Kre4/BatchInsert}{github}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Исследование производительности batch-вставок в Hibernate + PostgreSQL
+            \item Выявление и решение проблем с конфигурацией батчинга, влияющих на производительность продакшн-приложения
+        \end{itemize}}
+
+    \entry
+		{Java/Spring Boot}
+		{itmo-backend-olymp - Промышленный бэкенд}
+		{\href{https://github.com/Kre4/itmo-backend-olymp}{github}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Решение задач промышленного бэкенда для олимпиады ИТМО
+            \item RESTful API сервис, позволяющий управлять списком кинофильмов и режиссеров
+        \end{itemize}}
+
+    \entry
+		{Kotlin/JDBC}
+		{repository-dsl}
+		{\href{https://github.com/Kre4/repository-dsl}{github}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Экспериментальная библиотека с Kotlin DSL для улучшения читаемости кода работы с репозиториями
+            \item Демонстрация применения функциональных возможностей Kotlin для создания выразительного API
+        \end{itemize}}
+        
+    \entry
+		{Kotlin/Plugin}
+		{CodeCleaner}
+		{\href{https://github.com/Kre4/CodeCleaner}{github}}
+		{\vspace{-10pt}
+        \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt, leftmargin=-1pt]
+            \item Плагин для IDEA, реализующий радикальную чистку кода без гарантии последующей компиляции
+        \end{itemize}}
+\end{entrylist}
+
+
+\vspace{-10 pt}
+\cvsect{Курсы}
+\begin{entrylist}
+	\entry
+        {Базовые вузовские}
+		{}
+		{}
+        {Алгоритмы и структуры данных, Web-программирование Машинное обучение, Основы тестирования программного обеспечения.
+        Математический анализ, Линейная алгебра, Дискретная математика, Теория вероятностей и математическая статистика.}
+	\entry
+		{Углублённые вузовские}
+        {}
+		{}
+		{Объектно-ориентированное программирование, Базы данных, Архитектура информационных систем,
+Анализ и проектирование на UML, Проектирование программного обеспечения.}
+	
+
+\end{entrylist}
+
+\end{document}
