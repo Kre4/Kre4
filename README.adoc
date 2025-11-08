@@ -1,7 +1,7 @@
-:!showtitle:
-:icons: font
+// :!showtitle:
+// :icons: font
 :toc-title:
-:toc: preamble
+:toc: macro
 :toclevels: 1
 
 = Привет👋
@@ -11,6 +11,7 @@
 Тут ты можешь найти:
 
 :toc:
+toc::[]
 
 == 📊Немного статистики📊
 
