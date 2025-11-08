@@ -5,20 +5,20 @@
 ## 📊Немного статистики📊
 
 <a href="https://github.com/Kre4/Kre4/blob/main/github-contributions.svg">
-    <img align="middle" width="500" alt="🦑" src="https://github.com/Kre4/Kre4/blob/main/github-contributions.svg">  
+    <img align="middle" width="400" alt="🦑" src="https://github.com/Kre4/Kre4/blob/main/github-contributions.svg">  
 </a>
 <a>
-    <table border="0">
-    <tr border="none"><td>
-        <a href="https://github.com/anuraghazra/convoychat">
-            <img height=100 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Kre4&layout=compact&langs_count=8&card_width=320" />
-        </a>
-    </td></tr>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-        <tr><td>
-            <img height=100 align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Kre4&layout=compact&langs_count=10" />
+    <table width="200" border="0">
+        <tr border="none"><td>
+            <a href="https://github.com/anuraghazra/convoychat">
+                <img height=100 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Kre4&layout=compact&langs_count=8&card_width=320" />
+            </a>
         </td></tr>
-    </a>
+        <tr><td>
+            <a href="https://github.com/anuraghazra/github-readme-stats">
+                <img height=100 align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=@Kre4&layout=compact&langs_count=10" />
+            </a>
+        </td></tr>
     </table>
 </a>
 
