@@ -55,7 +55,7 @@ a|image::https://github-readme-stats.vercel.app/api/wakatime?username=@Kre4&layo
 
 == 📚android проекты📚
 
-* link:https://github.com/Observer189/StarProject[Игра "Star Battle"], написана в 2018 году совместно с моим товарищем в качестве финального проекта для IT школы Samsung. (link:https://drive.google.com/drive/folders/1PEc4DD_QZpNNe6iuAs6XPXLpSxTONtu1[Гугл диск])
+* link:https://github.com/Observer189/StarProject[Игра "Star Battle"], написана в 2018 году совместно с моим товарищем в качестве финального проекта для IT школы Samsung.
 * link:https://github.com/Kre4/Calculator[Калькулятор] - кальулятор, написанный без использования expr4j 💀💀💀💀
 * link:https://github.com/Kre4/DevelopersLifeApp[Developers Life] - скролл-лента с гифками и картинками по теме разработки
 * link:https://github.com/Kre4/SuperSimplePhotoEditor[SuperSimplePhotoEditor] - простое приложение для рисования поверх изображения.
